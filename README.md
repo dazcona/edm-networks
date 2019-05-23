@@ -1,5 +1,19 @@
 # Modelling Math Learning on an Open Access Intelligent Tutor
 
+This repo presents a straightforward way for researchers and lecturers to quickly follow up on a particular student's progression using networks. In addition, topics studied by students present differences that can be exploited to personalize the student's learning. The potential application of unsupervised machine learning approaches such as HMMs or embeddings using deep learning might showcase hidden and higher level representations of learning states that can be applied to Intelligent Tutoring Systems and online courses.
+
+Please consider citing the following if you use any of the work:
+```
+@inproceedings{azcona2018modelling,
+  title={Modelling math learning on an open access intelligent tutor},
+  author={Azcona, David and Hsiao, I-Han and Smeaton, Alan F},
+  booktitle={International Conference on Artificial Intelligence in Education},
+  pages={36--40},
+  year={2018},
+  organization={Springer}
+}
+```
+
 ## ASU's Global Freshmen Academy
 
 ASU Online offers 13 courses, great variety of schools (from Sociology to Astronomy)
@@ -34,8 +48,8 @@ Students are assessed continuously while navigating through ALEKS
 2. [Data Processing](src/notebooks/2.%20Data%20Preprocessing.ipynb): explore, graph and process the data not to use some empty dataset
 3. [EDA](src/notebooks/3.%20EDA.ipynb): Exploratory Data Analysis
 4. [Networks](src/notebooks/4.%20Networks.ipynb): Analysis using Networks and NetworkX
-5. [Predictive Modelling](src/notebooks/5.%20Predictive%20Modelling.ipynb): Modelling
-6. [HMM](src/notebooks/6.%20HMM.ipynb): Hidden Markov Models. 
+5. [Predictive Modelling](src/notebooks/5.%20Predictive%20Modelling.ipynb): Modelling using features extracted from the networks developed
+6. [HMM](src/notebooks/6.%20HMM.ipynb): Hidden Markov Models
 7. [Clustering](src/notebooks/7.%20Clustering.ipynb): clustering topics based on their description
 
 You can always view a notebook using https://nbviewer.jupyter.org/
